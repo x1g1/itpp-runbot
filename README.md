@@ -16,7 +16,9 @@ Features:
   environment doesn't have access to external resources (e.g. to s3 to upload
   docker volumes). This part of the system is proprietary.
 
-# Repository structure
+# Structure
+
+This repository is structured in the following way
 
 * ``workflows/`` -- Github Workflows for uploading to target repo
 

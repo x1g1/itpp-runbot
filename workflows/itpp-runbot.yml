@@ -3,8 +3,11 @@ name: "ITPP Runbot: Rebuild Images"
 on:
   push:
     paths:
-      - "itpp-runbot/**"
+      - ".itpp-runbot/images/**"
       - ".github/workflows/itpp-runbot.yml"
+
+  schedule:
+    - cron: "SCHEDULE_CRON"
 
 jobs:
   rebuild-images:
